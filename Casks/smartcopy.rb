@@ -1,6 +1,6 @@
 cask "smartcopy" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "2.0.1"
+  sha256 "1496427b281867eee1e5445f21b23b38eb0f5038364a602328f3392ea9bd049b"
 
   url "https://github.com/machinewrapped/SmartCopy2026/releases/download/v#{version}/SmartCopy-#{version}-osx-arm64.tar.gz"
   name "SmartCopy"
