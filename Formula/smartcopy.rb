@@ -1,19 +1,19 @@
 class Smartcopy < Formula
   desc "Intelligently copies large directories via composable filters and transform pipelines"
   homepage "https://github.com/machinewrapped/SmartCopy2026"
-  version "2.1.4"
+  version "2.1.5"
 
   on_macos do
     on_arm do
       url "https://github.com/machinewrapped/SmartCopy2026/releases/download/v#{version}/SmartCopy-#{version}-osx-arm64.tar.gz"
-      sha256 "869c107d27675a5d6b616e2fe675b9e4c2de3a18bbd68399241332997d13a951" # macos-arm64
+      sha256 "47f2174ac9ef99b27a21039fa456c7b8c7ccf335e754f70d70d8d58c4a6cd2df" # macos-arm64
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/machinewrapped/SmartCopy2026/releases/download/v#{version}/SmartCopy-#{version}-linux-x64.tar.gz"
-      sha256 "9b67cf38f799289e36ca72c3e9c42bc02f60e759f15a496715bead1eaab45ef1" # linux-x64
+      sha256 "e70a0bcd849284b6e59a9865c8b5a8e8e3991e465ce694ac7340c5d3795f4fee" # linux-x64
     end
   end
 
